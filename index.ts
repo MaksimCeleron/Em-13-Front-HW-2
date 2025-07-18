@@ -166,6 +166,8 @@ if (program == '1')
     } else if (imt > 25 && imt < 29.9)
     {
         console.log('Надмірна вага.');
+    } else {
+        console.log('Ожиріння');
     }
 } else if (program == '5')
 {
